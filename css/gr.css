@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.sin-decoration{
+    text-decoration: none !important;
+}
+.w3-lobster {
+    font-family: "Lobster", serif;
+}
+.login {
+    width: fit-content;
+    padding: 25px;
+}
+.login2 {
+    width: 350px;
+}
+button.w3-button.w3-black.w3-round-xlarge {
+    float: right;
+}
+.derecha {
+    float: right;
+    margin-top: 35px;
+    clear: both;
+}
+button a {
+    text-decoration: none;
+}
+.banda {
+    text-align: center;
+}
+.banda p, .banda img {
+    display: inline-block;
+}
+.banda a {
+    margin-right: 80px;
+    margin-top: 60px;
+}
+footer {
+    height: 130px;
+    margin-top: 90px;
+    width: 100%;
+    background-color: #5f8fe4;
+    color: #fff;
+    font-size: 13px;
+    border-top: 4px solid #185ad0;
+}
+.docentes {
+    float: left;
+    margin-left: 50px;
+}
+.alumnos {
+    float: right;
+    margin-right: 50px;
+}
+
+footer img {
+    width: 90px;
+    margin-top: 15px;
+    float: left;
+    margin-right: 20px;
+}
+.tab-content {
+     border: 1px solid #ccc;
+     margin-bottom: 50px;
+     padding: 0px 30px 15px 30px;
+     border-top: 1px solid #fff;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    padding-top: 40px;
+    padding-bottom: 40px;
+ }
+.iso-logo {
+    margin-left: 50px;
+    float: left;
+    font-size: 22px;
+    width: 510px;
+    line-height: 5px;
+    margin-right: 200px;
+}
+.iso-logo .titulo span {
+    display: block;
+    line-height: 54px;
+    font-size: 30px;
+}
+.docentes p, .alumnos p {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+.docentes, .alumnos {
+    margin-top: 15px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: #a2d0f5 !important;
+}
+.tab-pane p.descripcion {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 35px;
+    padding-bottom: 8px;
+}
+.selector {
+    margin-bottom: 13px;
+}
+input, select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    height: 23px;
+}
+.w3-green a {
+    color: #fff;
+    font-weight: bold;
+}
+.table-striped>tbody>tr:nth-of-type(odd), .w3-table-all tr:nth-child(even) {
+    background-color: #e6e5e5 !important;
+}
+.reserva {
+    height: 25px;
+    padding-top: 2px;
+}
+.detalle-circuitos {
+    width: 135px;
+    /* float: right; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    background-color: #dedddd;
+}
+/*form#destinos {*/
+/*    background-color: #ccc;*/
+/*    width: calc(100% - 240px);*/
+/*}*/
+.distribucion {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto 135px 135px;
+}
+label.acompaniante {
+    padding: 0px;
+    margin: 0px 10px 0px 0px;
+    height: 30px;
+    width: 55px;
+}
+#area-formularios .caja {
+    width: 33%;
+    text-align: center;
+    float: left;
+    border-top: 1px solid #ccc;
+    padding-top: 7px;
+}
+.limpia-float {
+    clear: both;
+}
+button.btn1 {
+    margin-top: 35px;
+}
+.salir {
+    float: right;
+    clear: both;
+}
+span.detalle {
+    font-family: sans-serif;
+    font-size: 18px;
+    display: block;
+    margin-top: -22px;
+    margin-left: 75px;
+    color: #fff;
+}
+span.iso {
+    color: #c1c1c1;
+}
+.campo-falso {
+    padding: 8px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    color: #b3b3b3;
+    padding-top: 0px;
+    padding-bottom: 2px;
+}
+.col-derecha {
+    float: right;
+    width: 230px;
+}
+.col-izquierda {
+    float: left;
+    width: 230px;
+    margin-right: 30px;
+}
+.ingreso {
+    padding-top: 0px;
+    padding-bottom: 2px;
+    margin-bottom: 0px !important;
+    margin-top: 2px;
+}
+/*.alerta {
+    background-color: #ffe600;
+    color: #000;
+}
+.correcto {
+    background-color: #7ad872;
+    color: #000;
+}*/
+.btn-reserva {
+    /*display: none;*/
+}
+header {
+    background-image: url("../img/via-lactea.jpg");
+}
+.w3-container.w3-blue.w3-bottombar.w3-border-indigo.w3-fixed {
+    background-color: initial !important;
+}
+label.buscador {
+    width: 120px;
+    font-size: 14px;
+    height: 30px;
+    text-align: inherit;
+}
+th.reservas {
+    width: 170px;
+    background-color: #ccc;
+}
+td.reservas {
+    width: 170px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+table.reservas {
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+div.bienvenida {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: initial;
+}
+.bienvenida p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.reserva-turno-medico {
+    width: 500px;
+}
+label.reserva-medica {
+    height: 30px;
+    width: 140px;
+}
+.mensaje-yahecho {
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 215px;
+    margin-bottom: 215px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+table.w3-table-all tbody tr th {
+    font-weight: initial;
+}
+.alerta {
+    color: #ff0504;
+}
+.atencion {
+    color: #ffaf07;
+}
+.ok {
+    color: #10c20a;
+}
+.aprobado {
+    color: #2196f3;
+}
+#codigo {
+    display: grid;
+    /*grid-template-columns: 1fr 4fr;*/
+    grid-template-columns: 1fr 1fr;
+}
+span.item-reserva, p.item-reserva {
+    font-size: 15px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.opciones-menu {
+    display: inline-block;
+    margin-left: 15px;
+}
+input#menu {
+    margin-top: 7px;
+    margin-left: -5px;
+    margin-right: 7px;
+}
+.det1 {
+    display: inline-block;
+}
+.panel-control {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 230px;
+    margin-bottom: 220px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cuadro-mensaje {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 64px;
+    margin-bottom: 213px;
+    font-size: 17px;
+    padding: 20px 0px;
+}
+.validacion{
+    margin-top: 222px;
+    margin-bottom: 222px;
+}
+.validacion .login .derecha {
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: fit-content;
+    background-color: #25c335 !important;
+    color: #fff;
+    font-size: 20px;
+    float: initial;
+}
+p.usuario {
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+    margin-top: 4px;
+}
+.iso-logo_encabezado {
+    clear: both;
+    margin-top: -50px;
+    color: #fff0 !important;
+}
+p.aviso_qr {
+    width: 180px;
+    display: inline-block;
+    margin-right: 35px;
+}
+.descripcion2 p {
+    display: block;
+    text-align: left;
+    line-height: 11px;
+    font-size: 14px;
+}
+.descripcion2 span {
+    width: 300px;
+    display: inline-block;
+}
+.reserva2 {
+    padding-top: 2px;
+    width: 80px !important;
+    height: 15px;
+}
+.mis_reservas {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.codigo-qr{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+.fact_mensual {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.fact_mensual input[type="text"] {
+    margin-right: 40px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.detalle-fac {
+    margin-top: 35px;
+}
+.facturacion_mensual {
+    font-size: 15px;
+    font-weight: bold;
+}
+input.facturacion {
+    width: 400px;
+    margin-left: 55px;
+    margin-bottom: 25px;
+}
+.aclaracion{
+    margin-top: 0px;
+    margin-bottom: 70px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.detalle_tipo_viaje {
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+
+
+
+/** ubicacion-asientos **/
+.opciones-menu label {
+    display: inline-block;
+    padding: 5px;
+    margin: 14px 8px 0px 8px;
+    font-size: 12px;
+    text-align: center;
+}
+label {
+    display: inline-block;
+    padding: 5px;
+    margin: 8px;
+    font-size: 12px;
+    text-align: center;
+    /*width: 84px;*/
+    /*height: 75px;*/
+}
+label.asientos {
+    display: inline-block;
+    padding: 5px;
+    margin: 8px;
+    font-size: 12px;
+    text-align: center;
+    width: 84px;
+    height: 58px;
+}
+label.vacante {
+    background-color: #89cc7e;
+    border: #4aa348 1px solid;
+}
+label.reservado {
+    background-color: #cc7461;
+    border: #a3342f 1px solid;
+    color: #fff;
+}
+input[type="checkbox"] {
+    margin-left: 0px;
+}
+p.disponible {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+}
+span.reservado {
+    margin-top: 4px;
+    display: block;
+    font-size: 13px;
+    border: 1px solid;
+    background-color: #f14622;
+    border-radius: 3px;
+}
+.seleccionado {
+    background-color: #a9fb35;
+    border: #067903 1px solid;
+}
+.cabina-asientos {
+    width: fit-content;
+    height: 400px;
+    margin-left: -8px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    overflow: auto;
+    padding-right: 20px;
+}
+.cabina-asientos div {
+    display: flex;
+    justify-content: center;
+}
+.datos-reserva {
+    border: solid 1px #ccc;
+    margin-top: 20px;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    padding-left: 68px;
+    padding-right: 68px;
+    color: #333;
+}
+.destacado {
+    background-color: #a9fb357a;
+    padding: 3px;
+    display: block;
+    margin-left: -3px;
+}
+form#ubicacion_asientos {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 30px 30px 30px;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+form#ubicacion_asientos input[type="submit"] {
+    width: 100%;
+    height: 30px;
+}
+img.image-qr {
+    margin-top: 20px;
+}
+#codigo a img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+.etiqueta {
+    color: #3a3a3a;
+    margin-bottom: 8px;
+}
+.embarque {
+    color: #185ad0;
+    font-size: 25px;
+}
+.datos-reserva p {
+    font-size: 20px !important;
+    font-weight: bold;
+    display: block;
+}
+.selec-asientos {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+.w3-container, .w3-panel {
+    padding: 35px !important;
+}
+.w3-border-white, .w3-hover-border-white:hover {
+    background-color: #00b3f9;
+    margin-left: 10px;
+}
+.w3-center {
+    color: #333;
+}
+label.w3-large.registro {
+    height: initial;
+    width: initial;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+}
+.dialogo {
+    padding: 5px 35px !important;
+}
+
+
+.detalle {
+    padding-top: inherit !important;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.descripcion2 {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    background-color: #f1eeee;
+    margin-top: -40px;
+}
